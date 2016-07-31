@@ -27,7 +27,8 @@ class ColorListItem extends Component {
     this.setState({ focused: false });
   }
 
-  handleFocus = () => {
+  handleFocus = e => {
+    e.target.select();
     this.setState({ focused: true });
   }
 

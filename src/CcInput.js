@@ -28,7 +28,8 @@ export default class CcInput extends React.Component {
     this.setState({ focused: false });
   }
 
-  handleFocus =() => {
+  handleFocus = e => {
+    e.target.select();
     this.setState({ focused: true });
   }
 
