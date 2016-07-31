@@ -1,4 +1,11 @@
-.App {
+.a-app {
+  text-shadow: #B2C6C6 0 0px 5px;
   width: 800px;
   margin: 100px auto 0 auto;
+  color: #B2C6C6;
+}
+
+.a-title {
+  font-weight: 300;
+  text-align: center;
 }

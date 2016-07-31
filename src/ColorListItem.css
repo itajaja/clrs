@@ -1,11 +1,9 @@
 .cli-container {
-  color: #B2C6C6;
   font-size: 18px;
   position: relative;
 }
 
 .cli-color-components {
-  text-shadow: #B2C6C6 0 0px 15px;
   width: 50%;
   padding: 20px;
   display: inline-flex;
@@ -22,6 +20,7 @@
   transition: all .5s;
   text-transform: uppercase;
   color: #B2C6C6;
+  text-shadow: #B2C6C6 0 0px 5px;
   background: transparent;
   outline: none;
   border: 0;
@@ -37,7 +36,8 @@
   padding: 22px 10px;
   left: -100px;
   width: 100px;
-  color: #db1c1c;
+  color: #DB1C1C;
+  text-shadow: #DB1C1C 0 0px 5px;
   margin: auto;
   cursor: pointer;
   text-align: right;
@@ -51,4 +51,5 @@
 
 .cli-dark-text {
   color: #27272A;
+  text-shadow: #27272A 0 0px 5px;
 }

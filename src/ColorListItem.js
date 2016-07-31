@@ -24,11 +24,11 @@ class ColorListItem extends Component {
   }
 
   handleBlur = () => {
-    this.setState({ focused: false })
+    this.setState({ focused: false });
   }
 
   handleFocus = () => {
-    this.setState({ focused: true })
+    this.setState({ focused: true });
   }
 
   handleChange = e => {
