@@ -6,11 +6,11 @@ import tc from 'tinycolor2';
 import './ColorList.css';
 import ColorListItem from './ColorListItem';
 
-const colorSorter = ({ color: a }, { color: b }) => {
+const colorSorter = ({ color: a, id: aId }, { color: b, id: bId }) => {
   if (a.h > b.h) return 1;
   else if (b.h > a.h) return -1;
-  else if(a.l >= b.l) return 1;
-  else return -1;
+  else if(a.l > b.l) return 1;
+  else return bId - aId;
 };
 
 class ColorList extends Component {
