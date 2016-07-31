@@ -1,5 +1,5 @@
 .a-app {
-  text-shadow: #B2C6C6 0 0px 5px;
+  text-shadow: #B2C6C6 0 0 2px;
   width: 800px;
   margin: 100px auto 0 auto;
   color: #B2C6C6;
@@ -8,4 +8,48 @@
 .a-title {
   font-weight: 300;
   text-align: center;
+  color: #2779ff;
+  text-shadow: #2779ff 0 0 2px;
+}
+
+.a-footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  font-size: 13px;
+  background: #27272A;
+}
+
+.a-footer-content {
+  transition: all .5s;
+  height: 20px;
+  overflow: hidden;
+}
+
+.a-open .a-footer-content {
+  height: 0;
+}
+
+.a-info {
+  width: 600px;
+  margin: 0 auto;
+  transition: all .5s;
+  overflow: hidden;
+  height: 0;
+}
+
+.a-open .a-info {
+  height: 150px;
+}
+
+.a-content {
+  margin-bottom: 70px;
+}
+
+a {
+  color: #2779ff;
+  text-shadow: #2779ff 0 0 2px;
 }

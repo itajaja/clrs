@@ -11,6 +11,8 @@
 
 .cl-add-color-btn {
   cursor: pointer;
+  color: #2779ff;
+  text-shadow: #2779ff 0 0 2px;
   float: left;
   padding: 20px;
 }
