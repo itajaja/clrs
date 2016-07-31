@@ -12,7 +12,7 @@ class App extends Component {
     }
   }
 
-  toggleInfo = () => {
+  handleToggleInfo = () => {
     this.setState({
       infoOpen: !this.state.infoOpen,
     });
@@ -30,7 +30,7 @@ class App extends Component {
             <a href="http://giacomotag.io">Giacomo Tagliabue</a>
             &copy; {new Date().getFullYear()}
             {' — '}
-            <a href="#" onClick={this.toggleInfo}>What's this?</a>
+            <a href="#" onClick={this.handleToggleInfo}>What's this?</a>
           </div>
           <div className="a-info">
             <p>
@@ -43,7 +43,7 @@ class App extends Component {
             </p>
             <p><a href="https://en.wikipedia.org/wiki/HSL_and_HSV">What's HSL?</a></p>
             <p><a href="https://github.com/itajaja/clrs">source code</a></p>
-            <p><a href="#" onClick={this.toggleInfo}>X</a></p>
+            <p><a href="#" onClick={this.handleToggleInfo}>X</a></p>
           </div>
         </div>
       </div>
