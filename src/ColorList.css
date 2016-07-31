@@ -1,0 +1,18 @@
+.cl-header {
+  padding: 20px;
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cl-header span {
+  color: #B2C6C6;
+  flex: 1;
+}
+
+.cl-add-color-btn {
+  cursor: pointer;
+  float: left;
+  padding: 20px;
+  color: #B2C6C6;
+}
